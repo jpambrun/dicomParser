@@ -21,7 +21,7 @@ var dicomParser = (function (dicomParser)
     {
         if(byteStream === undefined)
         {
-            throw "dicomParser.readDicomElementImplicit: missing required parameter 'byteStream'";
+            throw "dicomParser.findItemDelimitationItemAndSetElementLength: missing required parameter 'byteStream'";
         }
 
         var itemDelimitationItemLength = 8; // group, element, length
