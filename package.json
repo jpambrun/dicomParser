@@ -3,6 +3,7 @@
   "version": "1.8.12",
   "description": "Javascript parser for DICOM Part 10 data",
   "main": "src/index.js",
+  "type": "module",
   "browser": {
     "zlib": false
   },
